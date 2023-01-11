@@ -1,0 +1,49 @@
+{
+  "name": "use-tronlink",
+  "version": "0.0.7",
+  "description": "A React hook that connects with Tronlink hot wallet",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/Eryk-Luiz/use-tronlink",
+  "homepage": "https://github.com/Eryk-Luiz/use-tronlink",
+  "keywords": [
+    "Blockchain",
+    "Tronlink",
+    "Tron",
+    "Wallet",
+    "Connect Wallet",
+    "Connect",
+    "react",
+    "react hooks",
+    "hooks",
+    "typescript"
+  ],
+  "author": "Eryk-Luiz",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "^18.0.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "rollup": "^2.75.5",
+    "rollup-plugin-sass": "^1.2.12",
+    "rollup-plugin-typescript2": "^0.32.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
